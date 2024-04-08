@@ -1,1 +1,1 @@
-pyvesync @ git+https://github.com/akerl/vesync@main
+pyvesync @ git+https://github.com/akerl/vesync@master
