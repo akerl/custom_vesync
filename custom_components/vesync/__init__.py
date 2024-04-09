@@ -8,7 +8,7 @@ from homeassistant.core import HomeAssistant, ServiceCall
 from homeassistant.helpers import config_validation as cv
 from homeassistant.helpers.dispatcher import async_dispatcher_send
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
-from pyvesync.vesync import VeSync
+from pyvesyncakerl.vesync import VeSync
 
 from .common import async_process_devices
 from .const import (

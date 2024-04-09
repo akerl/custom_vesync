@@ -1,1 +1,1 @@
-pyvesync @ git+https://github.com/akerl/vesync@master
+pyvesyncakerl==3.0.1

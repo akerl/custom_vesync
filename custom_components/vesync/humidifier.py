@@ -15,7 +15,7 @@ from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant, callback
 from homeassistant.helpers.dispatcher import async_dispatcher_connect
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
-from pyvesync.vesyncfan import VeSyncHumid200300S
+from pyvesyncakerl.vesyncfan import VeSyncHumid200300S
 
 from .common import VeSyncDevice
 from .const import (
