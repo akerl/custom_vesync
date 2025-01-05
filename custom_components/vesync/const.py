@@ -1,6 +1,7 @@
 """Constants for VeSync Component."""
 
-from homeassistant.const import DEVICE_CLASS_TEMPERATURE, TEMP_CELSIUS, TIME_MINUTES
+from homeassistant.const import TEMP_CELSIUS, TIME_MINUTES
+from homeassistant.components.sensor import SensorDeviceClass
 
 DOMAIN = "vesync"
 VS_DISCOVERY = "vesync_discovery_{}"
@@ -74,7 +75,7 @@ SENSOR_TYPES_AIRFRYER = {
         "Current temperature",
         TEMP_CELSIUS,
         None,
-        DEVICE_CLASS_TEMPERATURE,
+        SensorDeviceClass.TEMPERATURE,
         "current_temp",
     ],
     "cook_set_temp": [
@@ -82,7 +83,7 @@ SENSOR_TYPES_AIRFRYER = {
         "Set temperature",
         TEMP_CELSIUS,
         None,
-        DEVICE_CLASS_TEMPERATURE,
+        SensorDeviceClass.TEMPERATURE,
         "cook_set_temp",
     ],
     "cook_last_time": [
